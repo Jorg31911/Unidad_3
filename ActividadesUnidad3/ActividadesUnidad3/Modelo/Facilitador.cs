@@ -8,9 +8,12 @@ namespace ActividadesUnidad3.Modelo
 {
     class Facilitador
     {
-        public string nombre { get; set; }
-        public byte edad { get; set; }
-        public string profecion { get; set; }
+        public string nombre;
+        public byte edad;
+        public string profecion;
+        public string Nombre { get; set; }
+        public byte Edad { get; set; }
+        public string Profecion { get; set; }
 
 
         public void RevisarTarea(string texto)

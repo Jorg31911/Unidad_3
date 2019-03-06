@@ -7,9 +7,12 @@ using System.Threading.Tasks;
 namespace ActividadesUnidad3.Modelo
 {
     class Carrera
-           {
-        public string nombre { get; set; }
-        public string duracion { get; set; }
-        public string descripcion { get; set; }    
+    {
+        public string nombre;
+        public string duracion;
+        public string descripcion;
+        public string Nombre { get; set; }
+        public string Duracion { get; set; }
+        public string Descripcion { get; set; }    
 }
 }
