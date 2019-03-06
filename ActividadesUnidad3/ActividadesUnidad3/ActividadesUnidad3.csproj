@@ -46,12 +46,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modelo\Carrera.cs" />
     <Compile Include="Modelo\Estudiante.cs" />
-    <Compile Include="Vista\formaHelloWord.cs">
+    <Compile Include="Modelo\Facilitador.cs" />
+    <Compile Include="Vista\FormaEstudiante.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Vista\formaHelloWord.Designer.cs">
-      <DependentUpon>formaHelloWord.cs</DependentUpon>
+    <Compile Include="Vista\FormaEstudiante.Designer.cs">
+      <DependentUpon>FormaEstudiante.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Vista\Formulario de inicio.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Vista\Formulario de inicio.Designer.cs">
+      <DependentUpon>Formulario de inicio.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -64,8 +72,11 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Vista\formaHelloWord.resx">
-      <DependentUpon>formaHelloWord.cs</DependentUpon>
+    <EmbeddedResource Include="Vista\FormaEstudiante.resx">
+      <DependentUpon>FormaEstudiante.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Vista\Formulario de inicio.resx">
+      <DependentUpon>Formulario de inicio.cs</DependentUpon>
     </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>

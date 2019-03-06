@@ -8,16 +8,24 @@ namespace ActividadesUnidad3.Modelo
 {
     class Estudiante
     {
-        public byte edad { get; set; }
-        public string genero { get; set; }
-        public string nombre { get; set; }
-        public long numeroControl { get; set; }
+        //Propiedades de la clase
+        public string nombre;
+        public byte edad;
+        public char genero;
+        public long numeroControl;
+        //Metodos getter's y setter's de las propiedades
+        public byte Edad { get; set; }
+        public char Genero { get; set; }
+        public string Nombre { get; set; }
+        public int NumeroControl { get; set; }
         public void Estudiar(String texto)
         {
+            return;
             //Metodo para estudiar.
         }//fin del metodo Estudiar
         public void HacerTarea(String tema)
         {
+            return;
             //Metodo que hacer tarea
         }//Fin de metodo hacer tarea
     }

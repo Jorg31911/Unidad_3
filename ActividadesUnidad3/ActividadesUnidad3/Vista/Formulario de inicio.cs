@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using ActividadesUnidad3.Vista;
 
 namespace ActividadesUnidad3
 {
@@ -17,9 +18,11 @@ namespace ActividadesUnidad3
             InitializeComponent();
         }
 
-        private void Form1_Load(object sender, EventArgs e)
+        private void button1_Click(object sender, EventArgs e)
         {
-
+            FormaEstudiante forma = new FormaEstudiante();
+            forma.Show();
+            this.Hide();
         }
     }
 }
