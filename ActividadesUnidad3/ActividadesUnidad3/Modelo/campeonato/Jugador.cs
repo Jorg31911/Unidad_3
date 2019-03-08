@@ -11,11 +11,12 @@ namespace ActividadesUnidad3.Modelo.campeonato
         private string _equipo;
         private int _numero;
         private string _posicion;
+        //Enlace con la clase equipo
+        private Equipo _equipe;
         //Metodos
-        private string Equipo { get; set; }
-        private int Numero { get; set; }
-        private string Posicion { get; set; }
-
+        public int Numero { get; set; }
+        public string Posicion { get; set; }
+        public Equipo Equipe { get; set; }
 
     }
 }
