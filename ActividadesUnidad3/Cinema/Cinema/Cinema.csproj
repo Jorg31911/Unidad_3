@@ -55,12 +55,15 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Vista\Asiento.cs" />
+    <Compile Include="Vista\Boleto.cs" />
+    <Compile Include="Vista\Cartelera.cs" />
     <Compile Include="Vista\Cliente.cs" />
     <Compile Include="Vista\Pelicula.cs" />
     <Compile Include="Vista\Persona.cs" />
     <Compile Include="D:\barron\Sala.cs">
       <Link>Vista\Sala.cs</Link>
     </Compile>
+    <Compile Include="Vista\Reservacion.cs" />
     <Compile Include="Vista\taquillero.cs" />
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
