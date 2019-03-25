@@ -32,29 +32,25 @@ namespace ActividadesUnidad3.Vista
 
         }
 
+
+     
+        private void pictureBox2_Click(object sender, EventArgs e)
+        {
+            Application.Exit();
+        }
+
         private void button2_Click(object sender, EventArgs e)
         {
-
+            Campeonato x = new Campeonato();
+            x.Show();
+            this.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-
-        }
-
-        private void button3_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void pictureBox2_Click(object sender, EventArgs e)
-        {
-            Application.Exit();
+            Jornada x = new Jornada();
+            x.Show();
+            this.Hide();
         }
     }
 }

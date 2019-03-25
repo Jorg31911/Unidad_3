@@ -32,8 +32,8 @@
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
             this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.button3 = new System.Windows.Forms.Button();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.label1 = new System.Windows.Forms.Label();
@@ -103,19 +103,6 @@
             this.button2.UseVisualStyleBackColor = false;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
-            // button3
-            // 
-            this.button3.BackColor = System.Drawing.SystemColors.MenuHighlight;
-            this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.button3.ForeColor = System.Drawing.SystemColors.Info;
-            this.button3.Location = new System.Drawing.Point(3, 225);
-            this.button3.Name = "button3";
-            this.button3.Size = new System.Drawing.Size(423, 30);
-            this.button3.TabIndex = 1;
-            this.button3.Text = "Partidos";
-            this.button3.UseVisualStyleBackColor = false;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
-            // 
             // button4
             // 
             this.button4.BackColor = System.Drawing.SystemColors.MenuHighlight;
@@ -128,6 +115,18 @@
             this.button4.Text = "Jornadas";
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
+            // 
+            // button3
+            // 
+            this.button3.BackColor = System.Drawing.SystemColors.MenuHighlight;
+            this.button3.Dock = System.Windows.Forms.DockStyle.Fill;
+            this.button3.ForeColor = System.Drawing.SystemColors.Info;
+            this.button3.Location = new System.Drawing.Point(3, 225);
+            this.button3.Name = "button3";
+            this.button3.Size = new System.Drawing.Size(423, 30);
+            this.button3.TabIndex = 1;
+            this.button3.Text = "Partidos";
+            this.button3.UseVisualStyleBackColor = false;
             // 
             // flowLayoutPanel1
             // 
@@ -158,7 +157,6 @@
             this.label1.Size = new System.Drawing.Size(291, 27);
             this.label1.TabIndex = 1;
             this.label1.Text = "Liga de Futbol Miguel Hidalgo";
-            this.label1.Click += new System.EventHandler(this.label1_Click);
             // 
             // flowLayoutPanel2
             // 
@@ -173,9 +171,9 @@
             // pictureBox2
             // 
             this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(3, -3);
+            this.pictureBox2.Location = new System.Drawing.Point(3, 48);
             this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(69, 174);
+            this.pictureBox2.Size = new System.Drawing.Size(69, 123);
             this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox2.TabIndex = 0;
             this.pictureBox2.TabStop = false;
