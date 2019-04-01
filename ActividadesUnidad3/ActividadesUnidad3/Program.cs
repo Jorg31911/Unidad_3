@@ -9,14 +9,21 @@ namespace ActividadesUnidad3
 {
     static class Program
     {
+        public static  Campeonato  Campeonato = null;
+        public static Jornada Jornada = null;
+        public static Main main = null;
         /// <summary>
         /// The main entry point for the application.
         /// </summary>
         [STAThread]
         static void Main()
         {
+
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            main = new Main();
+            Campeonato = new Campeonato();
+            Jornada = new Jornada();
             Application.Run(new Main());
         }
     }

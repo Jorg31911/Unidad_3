@@ -12,41 +12,13 @@ namespace ActividadesUnidad3.Vista
 {
     public partial class Campeonato : Form
     {
+        private string path = "C:\\Users\\LAB02-06\\Documents\\Visual Studio 2015\\campeonato.txt";
         public Campeonato()
         {
             InitializeComponent();
         }
 
-        private void splitContainer1_Panel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void Campeonato_Load(object sender, EventArgs e)
-        {
-
-        }
-
-        private void splitContainer1_Panel2_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void label1_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void tableLayoutPanel1_Paint(object sender, PaintEventArgs e)
-        {
-
-        }
-
-        private void button1_Click(object sender, EventArgs e)
-        {
-
-        }
-
+       
         private void pictureBox2_Click(object sender, EventArgs e)
         {
             Application.Exit();
@@ -65,5 +37,26 @@ namespace ActividadesUnidad3.Vista
             x.Show();
             this.Hide();
         }
+
+        private void pictureBox4_Click(object sender, EventArgs e)
+        {
+            Main x = new Main();
+            x.Show();
+            this.Hide();
+        }
+
+        private void button1_Click_1(object sender, EventArgs e)
+        {
+            Jornada x = new Jornada();
+            x.Show();
+            this.Hide();
+        }
+        private void LoadGrid()
+        {
+            datos.SelectionMode = DataGridViewSelectionMode.FullColumnSelect;
+            datos.Rows.Clear();
+            datos.AllowUserToAddRows = false;
+        }
+       
     }
 }
