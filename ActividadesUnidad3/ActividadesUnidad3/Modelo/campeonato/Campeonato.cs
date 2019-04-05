@@ -16,6 +16,11 @@ namespace ActividadesUnidad3.Modelo.campeonato
         public int ID {get;set;}
         public string Nombre { get; set; }
         public DateTime FechaInicio { get; set; }
+        public DateTime FechaFin { get; set; }
         public  List<Jornada>  Jornadas { get; set; }
+        public override string ToString()
+        {
+            return ID + "|" + Nombre + "|" + FechaInicio.ToString("dd/MM/yyyy") + "|" + FechaFin.ToString("dd/MM/yyyy");
+        }
     }
 }

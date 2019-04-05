@@ -1,6 +1,6 @@
 ﻿namespace ActividadesUnidad3.Vista
 {
-    partial class Campeonato
+    partial class Campeonato2
     {
         /// <summary>
         /// Required designer variable.
@@ -28,7 +28,8 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Campeonato));
+            this.components = new System.ComponentModel.Container();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Campeonato2));
             this.splitContainer1 = new System.Windows.Forms.SplitContainer();
             this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
             this.label1 = new System.Windows.Forms.Label();
@@ -55,6 +56,9 @@
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
             this.pictureBox4 = new System.Windows.Forms.PictureBox();
             this.button1 = new System.Windows.Forms.Button();
+            this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
+            this.menuEliminar = new System.Windows.Forms.ToolStripMenuItem();
+            this.menuModificar = new System.Windows.Forms.ToolStripMenuItem();
             ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
             this.splitContainer1.Panel1.SuspendLayout();
             this.splitContainer1.Panel2.SuspendLayout();
@@ -67,6 +71,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.buscar)).BeginInit();
             this.tableLayoutPanel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
+            this.contextMenuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
             // splitContainer1
@@ -116,7 +121,7 @@
             this.tableLayoutPanel1.ColumnCount = 3;
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 23.42342F));
             this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Percent, 76.57658F));
-            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 112F));
+            this.tableLayoutPanel1.ColumnStyles.Add(new System.Windows.Forms.ColumnStyle(System.Windows.Forms.SizeType.Absolute, 114F));
             this.tableLayoutPanel1.Controls.Add(this.label5, 0, 1);
             this.tableLayoutPanel1.Controls.Add(this.label2, 0, 0);
             this.tableLayoutPanel1.Controls.Add(this.label3, 0, 2);
@@ -147,7 +152,7 @@
             this.label5.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label5.Location = new System.Drawing.Point(3, 22);
             this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(112, 22);
+            this.label5.Size = new System.Drawing.Size(111, 22);
             this.label5.TabIndex = 8;
             this.label5.Text = "Nombre";
             this.label5.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -159,7 +164,7 @@
             this.label2.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label2.Location = new System.Drawing.Point(3, 0);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(112, 22);
+            this.label2.Size = new System.Drawing.Size(111, 22);
             this.label2.TabIndex = 5;
             this.label2.Text = "Id";
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -171,7 +176,7 @@
             this.label3.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label3.Location = new System.Drawing.Point(3, 44);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(112, 53);
+            this.label3.Size = new System.Drawing.Size(111, 53);
             this.label3.TabIndex = 6;
             this.label3.Text = "Periodo";
             this.label3.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -183,21 +188,21 @@
             this.label6.Dock = System.Windows.Forms.DockStyle.Fill;
             this.label6.Location = new System.Drawing.Point(3, 97);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(112, 33);
+            this.label6.Size = new System.Drawing.Size(111, 33);
             this.label6.TabIndex = 9;
             this.label6.Text = "Jornada";
             this.label6.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // textBox1
             // 
-            this.textBox1.Location = new System.Drawing.Point(121, 3);
+            this.textBox1.Location = new System.Drawing.Point(120, 3);
             this.textBox1.Name = "textBox1";
             this.textBox1.Size = new System.Drawing.Size(100, 20);
             this.textBox1.TabIndex = 10;
             // 
             // textBox2
             // 
-            this.textBox2.Location = new System.Drawing.Point(121, 25);
+            this.textBox2.Location = new System.Drawing.Point(120, 25);
             this.textBox2.Name = "textBox2";
             this.textBox2.Size = new System.Drawing.Size(100, 20);
             this.textBox2.TabIndex = 11;
@@ -212,12 +217,12 @@
             this.tableLayoutPanel3.Controls.Add(this.label7, 1, 0);
             this.tableLayoutPanel3.Controls.Add(this.dateFin, 1, 1);
             this.tableLayoutPanel3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel3.Location = new System.Drawing.Point(121, 47);
+            this.tableLayoutPanel3.Location = new System.Drawing.Point(120, 47);
             this.tableLayoutPanel3.Name = "tableLayoutPanel3";
             this.tableLayoutPanel3.RowCount = 2;
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel3.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Absolute, 20F));
-            this.tableLayoutPanel3.Size = new System.Drawing.Size(379, 47);
+            this.tableLayoutPanel3.Size = new System.Drawing.Size(378, 47);
             this.tableLayoutPanel3.TabIndex = 14;
             // 
             // label4
@@ -248,7 +253,7 @@
             this.label7.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label7.Location = new System.Drawing.Point(189, 0);
             this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(187, 27);
+            this.label7.Size = new System.Drawing.Size(186, 27);
             this.label7.TabIndex = 16;
             this.label7.Text = "Fecha Fin";
             this.label7.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
@@ -258,13 +263,13 @@
             this.dateFin.Format = System.Windows.Forms.DateTimePickerFormat.Short;
             this.dateFin.Location = new System.Drawing.Point(189, 30);
             this.dateFin.Name = "dateFin";
-            this.dateFin.Size = new System.Drawing.Size(187, 20);
+            this.dateFin.Size = new System.Drawing.Size(186, 20);
             this.dateFin.TabIndex = 14;
             // 
             // comboBox1
             // 
             this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Location = new System.Drawing.Point(121, 100);
+            this.comboBox1.Location = new System.Drawing.Point(120, 100);
             this.comboBox1.Name = "comboBox1";
             this.comboBox1.Size = new System.Drawing.Size(121, 21);
             this.comboBox1.TabIndex = 15;
@@ -277,9 +282,9 @@
             this.Fecha_inicio,
             this.Fecha_Fin});
             this.datos.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.datos.Location = new System.Drawing.Point(121, 133);
+            this.datos.Location = new System.Drawing.Point(120, 133);
             this.datos.Name = "datos";
-            this.datos.Size = new System.Drawing.Size(379, 237);
+            this.datos.Size = new System.Drawing.Size(378, 237);
             this.datos.TabIndex = 0;
             // 
             // Id
@@ -305,7 +310,7 @@
             // add
             // 
             this.add.Image = ((System.Drawing.Image)(resources.GetObject("add.Image")));
-            this.add.Location = new System.Drawing.Point(506, 3);
+            this.add.Location = new System.Drawing.Point(504, 3);
             this.add.Name = "add";
             this.add.Size = new System.Drawing.Size(101, 16);
             this.add.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -316,7 +321,7 @@
             // buscar
             // 
             this.buscar.Image = ((System.Drawing.Image)(resources.GetObject("buscar.Image")));
-            this.buscar.Location = new System.Drawing.Point(506, 25);
+            this.buscar.Location = new System.Drawing.Point(504, 25);
             this.buscar.Name = "buscar";
             this.buscar.Size = new System.Drawing.Size(100, 16);
             this.buscar.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
@@ -330,12 +335,12 @@
             this.tableLayoutPanel4.Controls.Add(this.pictureBox4, 0, 0);
             this.tableLayoutPanel4.Controls.Add(this.button1, 0, 1);
             this.tableLayoutPanel4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.tableLayoutPanel4.Location = new System.Drawing.Point(506, 133);
+            this.tableLayoutPanel4.Location = new System.Drawing.Point(504, 133);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             this.tableLayoutPanel4.RowCount = 2;
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
             this.tableLayoutPanel4.RowStyles.Add(new System.Windows.Forms.RowStyle(System.Windows.Forms.SizeType.Percent, 50F));
-            this.tableLayoutPanel4.Size = new System.Drawing.Size(107, 237);
+            this.tableLayoutPanel4.Size = new System.Drawing.Size(109, 237);
             this.tableLayoutPanel4.TabIndex = 19;
             // 
             // pictureBox4
@@ -344,7 +349,7 @@
             this.pictureBox4.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox4.Image")));
             this.pictureBox4.Location = new System.Drawing.Point(3, 3);
             this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(101, 112);
+            this.pictureBox4.Size = new System.Drawing.Size(103, 112);
             this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
             this.pictureBox4.TabIndex = 18;
             this.pictureBox4.TabStop = false;
@@ -355,13 +360,34 @@
             this.button1.Dock = System.Windows.Forms.DockStyle.Fill;
             this.button1.Location = new System.Drawing.Point(3, 121);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(101, 113);
+            this.button1.Size = new System.Drawing.Size(103, 113);
             this.button1.TabIndex = 19;
             this.button1.Text = "Jornada";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click_1);
             // 
-            // Campeonato
+            // contextMenuStrip1
+            // 
+            this.contextMenuStrip1.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
+            this.menuEliminar,
+            this.menuModificar});
+            this.contextMenuStrip1.Name = "contextMenuStrip1";
+            this.contextMenuStrip1.Size = new System.Drawing.Size(153, 70);
+            this.contextMenuStrip1.ItemClicked += new System.Windows.Forms.ToolStripItemClickedEventHandler(this.contextMenuStrip1_ItemClicked);
+            // 
+            // menuEliminar
+            // 
+            this.menuEliminar.Name = "menuEliminar";
+            this.menuEliminar.Size = new System.Drawing.Size(152, 22);
+            this.menuEliminar.Text = "Eliminar";
+            // 
+            // menuModificar
+            // 
+            this.menuModificar.Name = "menuModificar";
+            this.menuModificar.Size = new System.Drawing.Size(152, 22);
+            this.menuModificar.Text = "Modificar";
+            // 
+            // Campeonato2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -369,7 +395,7 @@
             this.ClientSize = new System.Drawing.Size(616, 504);
             this.ControlBox = false;
             this.Controls.Add(this.splitContainer1);
-            this.Name = "Campeonato";
+            this.Name = "Campeonato2";
             this.Load += new System.EventHandler(this.Campeonato_Load);
             this.splitContainer1.Panel1.ResumeLayout(false);
             this.splitContainer1.Panel2.ResumeLayout(false);
@@ -386,6 +412,7 @@
             ((System.ComponentModel.ISupportInitialize)(this.buscar)).EndInit();
             this.tableLayoutPanel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
+            this.contextMenuStrip1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -418,5 +445,8 @@
         private System.Windows.Forms.DataGridViewTextBoxColumn Nombre;
         private System.Windows.Forms.DataGridViewTextBoxColumn Fecha_inicio;
         private System.Windows.Forms.DataGridViewTextBoxColumn Fecha_Fin;
+        private System.Windows.Forms.ContextMenuStrip contextMenuStrip1;
+        private System.Windows.Forms.ToolStripMenuItem menuEliminar;
+        private System.Windows.Forms.ToolStripMenuItem menuModificar;
     }
 }

@@ -1,1 +1,2 @@
 c:\users\lab02-06\documents\visual studio 2015\Projects\Cinema\Cinema\bin\Debug\Cinema.exe.config
+C:\Users\LAB02-06\Source\Repos\Unidad_3\ActividadesUnidad3\Cinema\Cinema\bin\Debug\Cinema.exe.config

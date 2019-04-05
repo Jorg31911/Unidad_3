@@ -9,7 +9,7 @@ namespace ActividadesUnidad3
 {
     static class Program
     {
-        public static  Campeonato  Campeonato = null;
+        public static  Campeonato2  Campeonato = null;
         public static Jornada Jornada = null;
         public static Main main = null;
         /// <summary>
@@ -22,7 +22,7 @@ namespace ActividadesUnidad3
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             main = new Main();
-            Campeonato = new Campeonato();
+            Campeonato = new Campeonato2();
             Jornada = new Jornada();
             Application.Run(new Main());
         }

@@ -28,7 +28,7 @@ namespace ActividadesUnidad3.Vista
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Campeonato x = new Campeonato();
+            Campeonato2 x = new Campeonato2();
             x.Show();
             this.Hide();
         }
